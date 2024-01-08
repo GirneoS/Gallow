@@ -11,8 +11,8 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class Word {
-    Charset charset;
-    Path file;
+    private final Charset charset;
+    private final Path file;
 
     public Word() {
         this.charset = Charset.forName("WINDOWS-1251");

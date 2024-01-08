@@ -4,8 +4,8 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class Game {
-    String word;
-    String[] mystery;
+    private final String word;
+    private final String[] mystery;
 
     public Game(String word, String[] mystery) {
         this.word = word;
